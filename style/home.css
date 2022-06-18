@@ -1,0 +1,57 @@
+.body-background{
+    background-color: rgba(31,39,51);
+}
+
+/* - Card - */
+.card-layout{
+    margin: 150px ;    
+    background-color: rgb(74, 82, 97);  
+    border-radius: 15px;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(89, 247, 173);
+}
+
+.advice-number{
+    text-align: center;
+    color: rgb(89, 247, 173);
+}
+
+/* - Buttons Style - */
+.btn-search{
+    background-color:rgb(83,250,170);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.btn-search:hover{
+    transition: 0.3s;
+    transform: scale(1.5);
+}
+
+.btn-search-auto{
+    background-color:rgb(83,250,170);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-size: 10px;    
+}
+.btn-search-auto:hover{
+    transition: 0.3s;
+    transform: scale(1.5);
+}
+
+/* - Footer - */
+
+.attribution { 
+    font-size: 13px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

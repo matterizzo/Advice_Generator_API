@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style/home.css" type="text/css">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+  />
+  <script src="advice.js"></script>
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+</head>
+<body class="body-background">
+
+  <div class="title">
+    <h1>Advice Generator App</h1>
+  </div>
+
+  <div class="container-fluid col-5 w-50 px-4 card-layout">
+    <div class=" advice-number">
+      <h4>Advice #</h4>
+      <h5 id="idNumber"></h5>
+    </div>
+    <hr>
+    <div class="card-body d-flex flex-column align-items-center">
+      <h3 class="text-center text-light" id="advice"></h3>
+
+      <img class="container w-100 py-3" src=".\images\pattern-divider-desktop.svg" alt="">
+      <div class="d-flex flex-row">
+        <button class="btn-search m-3" type="submit" id="btn" onclick="btn()"> <img src=".\images\icon-dice.svg" alt=""> </button>
+        <button class="btn-search-auto m-3" type="submit" id="btn" onclick="btnAuto()"> <b>Loop</b></button>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="attribution text-info">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/matterizzo">Matteo Rizzo</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
