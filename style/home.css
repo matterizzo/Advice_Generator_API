@@ -23,9 +23,10 @@
 /* - Buttons Style - */
 .btn-search{
     background-color:rgb(83,250,170);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
+    border: none;
     margin-top: 15px;
 }
 .btn-search:hover{
@@ -35,9 +36,10 @@
 
 .btn-search-auto{
     background-color:rgb(83,250,170);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
+    border: none;
     margin-top: 15px;
     font-size: 10px;    
 }
